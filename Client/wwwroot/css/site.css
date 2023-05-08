@@ -68,3 +68,17 @@ a, .btn-link {
 hr {
     border-top: solid 1px black;
 }
+
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    #printDiv, #printTitle, #printDiv * {
+        visibility: visible;
+    }
+    #printDiv {
+        position: absolute;
+        left: 0;
+        top: 20;
+    }
+}
