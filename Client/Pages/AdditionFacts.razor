@@ -5,14 +5,18 @@
 @using MathFacts.Client.Data
 @inject MathFactService MathFactService
 
-<h3>Addition Facts</h3>
+<div class="d-flex flex-row justify-content-between">
+    <h3 id="printTitle">Addition Facts</h3>
+    <input id="printer" class="btn btn-primary" type="button" value="Print Sheet" onclick="printFacts()">
+</div>
+<br>
 @if (mathFacts == null)
 {
     <p><em>Loading...</em></p>
 }
 else
 {
-    <div class="container">
+    <div id="printDiv" class="container">
     <div class="row">
         @foreach (MathFact fact in mathFacts)
             {
