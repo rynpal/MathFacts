@@ -1,0 +1,57 @@
+@page "/subtractionfacts"
+
+<PageTitle>Subtraction Facts</PageTitle>
+
+@using MathFacts.Data
+@inject MathFactService MathFactService
+
+<h3>Subtraction Facts</h3>
+@if (mathFacts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="container">
+    <div class="row">
+        @foreach (MathFact fact in mathFacts)
+            {
+                <div class="col-1 text-end">
+                    @if (fact.FirstNum > fact.SecondNum)
+                    {
+                        @fact.FirstNum
+                    }
+                    else
+                    {
+                        @fact.SecondNum
+                    }
+                    <br>
+                    @fact.Operator
+                    &numsp;
+                    @if (fact.FirstNum < fact.SecondNum)
+                    {
+                        @fact.FirstNum
+                    }
+                    else
+                    {
+                        @fact.SecondNum
+                    }
+                    <hr class="solid">
+                    <br>
+                    &numsp;
+                </div>
+            }
+        </div>
+    </div>
+}
+
+
+@code {
+
+    private MathFact[]? mathFacts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        mathFacts = await MathFactService.GetSubtractionFacts();
+    }
+}

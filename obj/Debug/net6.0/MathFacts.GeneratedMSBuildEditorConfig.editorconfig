@@ -1,0 +1,60 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MathFacts
+build_property.RootNamespace = MathFacts
+build_property.ProjectDir = /home/ryan/Documents/MathFacts/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/ryan/Documents/MathFacts
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/ryan/Documents/MathFacts/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/ryan/Documents/MathFacts/Pages/AdditionFacts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRkaXRpb25GYWN0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/ryan/Documents/MathFacts/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/ryan/Documents/MathFacts/Pages/MultiplicationFacts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTXVsdGlwbGljYXRpb25GYWN0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/ryan/Documents/MathFacts/Pages/SubtractionFacts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3VidHJhY3Rpb25GYWN0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/ryan/Documents/MathFacts/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/ryan/Documents/MathFacts/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-am57ndu9s5
+
+[/home/ryan/Documents/MathFacts/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-g7qg6h00zr
+
+[/home/ryan/Documents/MathFacts/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/ryan/Documents/MathFacts/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/ryan/Documents/MathFacts/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
