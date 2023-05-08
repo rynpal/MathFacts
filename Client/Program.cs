@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
-using MathFacts.Data;
+using MathFacts.Client.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

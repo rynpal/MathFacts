@@ -87,43 +87,6 @@
         }
       },
       {
-        "HashCode": -1179939437,
-        "Kind": "Components.Component",
-        "Name": "MathFacts.Client.Pages.AdditionFacts",
-        "AssemblyName": "MathFacts",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "AdditionFacts"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "MathFacts.Client.Pages.AdditionFacts",
-          "Common.TypeNameIdentifier": "AdditionFacts",
-          "Common.TypeNamespace": "MathFacts.Client.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -4927290,
-        "Kind": "Components.Component",
-        "Name": "MathFacts.Client.Pages.AdditionFacts",
-        "AssemblyName": "MathFacts",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MathFacts.Client.Pages.AdditionFacts"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "MathFacts.Client.Pages.AdditionFacts",
-          "Common.TypeNameIdentifier": "AdditionFacts",
-          "Common.TypeNamespace": "MathFacts.Client.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": -1450519946,
         "Kind": "Components.Component",
         "Name": "MathFacts.Client.Pages.SubtractionFacts",
@@ -161,38 +124,38 @@
         }
       },
       {
-        "HashCode": 975018457,
+        "HashCode": -1179939437,
         "Kind": "Components.Component",
-        "Name": "MathFacts.Client.App",
+        "Name": "MathFacts.Client.Pages.AdditionFacts",
         "AssemblyName": "MathFacts",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "AdditionFacts"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "MathFacts.Client.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "MathFacts.Client",
+          "Common.TypeName": "MathFacts.Client.Pages.AdditionFacts",
+          "Common.TypeNameIdentifier": "AdditionFacts",
+          "Common.TypeNamespace": "MathFacts.Client.Pages",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -432257195,
+        "HashCode": -4927290,
         "Kind": "Components.Component",
-        "Name": "MathFacts.Client.App",
+        "Name": "MathFacts.Client.Pages.AdditionFacts",
         "AssemblyName": "MathFacts",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "MathFacts.Client.App"
+            "TagName": "MathFacts.Client.Pages.AdditionFacts"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "MathFacts.Client.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "MathFacts.Client",
+          "Common.TypeName": "MathFacts.Client.Pages.AdditionFacts",
+          "Common.TypeNameIdentifier": "AdditionFacts",
+          "Common.TypeNamespace": "MathFacts.Client.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -338,6 +301,43 @@
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.None"
+        }
+      },
+      {
+        "HashCode": 975018457,
+        "Kind": "Components.Component",
+        "Name": "MathFacts.Client.App",
+        "AssemblyName": "MathFacts",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "MathFacts.Client.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "MathFacts.Client",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -432257195,
+        "Kind": "Components.Component",
+        "Name": "MathFacts.Client.App",
+        "AssemblyName": "MathFacts",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MathFacts.Client.App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "MathFacts.Client.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "MathFacts.Client",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
         }
       },
       {

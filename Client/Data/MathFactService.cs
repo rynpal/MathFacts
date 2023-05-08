@@ -1,4 +1,4 @@
-namespace MathFacts.Data;
+namespace MathFacts.Client.Data;
 
 public class MathFactService
 {

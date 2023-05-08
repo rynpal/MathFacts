@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace MathFacts.Data;
+namespace MathFacts.Client.Data;
 
 public class MathFact
 {
