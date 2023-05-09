@@ -5,9 +5,9 @@
 @using MathFacts.Client.Data
 @inject MathFactService MathFactService
 
-<div class="d-flex flex-row justify-content-between"><h3 id="printTitle">Subtraction Facts</h3>
-<input id="printer" class="btn btn-primary"type="button" value="Print Sheet" onclick="printFacts()"></div>
+<PageHeader PageTitle="Subtraction Facts" />
 <br>
+
 @if (mathFacts == null)
 {
     <p><em>Loading...</em></p>

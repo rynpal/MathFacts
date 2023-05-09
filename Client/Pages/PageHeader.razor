@@ -1,0 +1,10 @@
+<div class="d-flex flex-row justify-content-between">
+    <h3 id="printTitle">@PageTitle</h3>
+    <input id="printer" class="btn btn-primary"type="button" value="Print Sheet" onclick="printFacts()">
+    <h4 id="today">@DateTime.UtcNow.ToString("MM/dd/yyyy")</h4>
+</div>
+
+@code {
+    [Parameter]
+    public string PageTitle {get; set;} = "Set by Child";
+}

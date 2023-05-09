@@ -69,8 +69,12 @@ hr {
     border-top: solid 1px black;
 }
 
+#today {
+    visibility: hidden;
+}
+
 @media print {
-    body * {
+    /* body * {
         visibility: hidden;
     }
     #printDiv, #printTitle, #printDiv * {
@@ -80,5 +84,19 @@ hr {
         position: absolute;
         left: 0;
         top: 20;
+    } */
+
+    .sidebar, #printer {
+        visibility: hidden;
+    }
+
+    #today {
+        visibility: visible;
+    }
+
+    article.content {
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 }
