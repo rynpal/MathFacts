@@ -20,8 +20,8 @@ public class MathFactService
     {
         return Task.FromResult(Enumerable.Range(1, 96).Select(index => new MathFact
         {
-            FirstNum = Random.Shared.Next(1, 20),
-            SecondNum = Random.Shared.Next(1, 20),
+            FirstNum = Random.Shared.Next(1, 10),
+            SecondNum = Random.Shared.Next(1, 10),
             Operator = "+"
         }).ToArray());
     }
@@ -30,8 +30,8 @@ public class MathFactService
     {
         return Task.FromResult(Enumerable.Range(1, 96).Select(index => new MathFact
         {
-            FirstNum = Random.Shared.Next(1, 20),
-            SecondNum = Random.Shared.Next(1, 20),
+            FirstNum = Random.Shared.Next(1, 10),
+            SecondNum = Random.Shared.Next(1, 10),
             Operator = "-"
         }).ToArray());
     }
